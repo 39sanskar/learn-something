@@ -1,6 +1,5 @@
 /* ------------ Operators ----------- */
 
-const { LEGAL_TLS_SOCKET_OPTIONS } = require("mongodb");
 
 // Arithmetic, comparison, logical, assignment, unary, ternary
 
