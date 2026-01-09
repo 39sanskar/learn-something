@@ -19,6 +19,11 @@ function checkPalindrome() {
     return;
   }
 
+  if (value.length > 22) {
+    alert("Word limit exceeded! Maximum 22 characters allowed.");
+    return;
+  }
+
   const cleaned = value.toLowerCase().replace(/[^a-z0-9]/g, "");
   const reversed = cleaned.split("").reverse().join("");
   // console.log(reverse); 
